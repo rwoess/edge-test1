@@ -17,14 +17,11 @@
   --container-max-width-lg: 980px;
   --container-max-width-xl: 1168px;
   --container-max-width-xxl: 1440px;
-
   --grid-gutter-width: var(--body-margin-width-mobile);
-
   --grid-gutter-width-mobile: 10px;
   --grid-gutter-width-tablet: 16px;
   --grid-gutter-width-desktop: 20px;
   --grid-gutter-width-desktop-large: 24px;
-
   --body-margin-width-mobile: 20px;
   --body-margin-width-mobile-large: 41px;
   --body-margin-width-tablet: 32px;
@@ -69,46 +66,54 @@ main .section {
   padding: 0 var(--body-margin-width-mobile)
 }
 
-@media (min-width: 1024px) {
+@media (width > 1024px) {
   main .section {
     width:calc(var(--container-max-width-lg) + var(--grid-gutter-width-desktop))
   }
 }
 
-@media (min-width: 1366px) {
+@media (width > 1366px) {
   main .section {
     width:calc(var(--container-max-width-xl) + var(--grid-gutter-width-desktop))
   }
 }
 
-@media (min-width: 1920px) {
+@media (width > 1920px) {
   main .section {
     width:calc(var(--container-max-width-xxl) + var(--grid-gutter-width-desktop-large))
   }
 }
 
-@media (min-width: 464px) {
+@media (width > 464px) {
   main .section {
     padding:0 var(--body-margin-width-mobile-large)
   }
 }
 
-@media (min-width: 768px) {
+@media (width > 768px) {
   main .section {
     padding:0 var(--body-margin-width-tablet)
   }
 }
 
-@media (min-width: 834px) {
+@media (width > 834px) {
   main .section {
     padding:0 var(--body-margin-width-tablet-large)
   }
 }
 
-@media (min-width: 1024px) {
+@media (width > 1024px) {
   main .section {
     padding:0
   }
+}
+
+/* component styling */
+main .section > div{
+  display: block;
+  margin-bottom: 40px;
+  margin-left: calc(var(--grid-gutter-width) / 2);
+  margin-right: calc(var(--grid-gutter-width) / 2)
 }
 
 /* section metadata */
