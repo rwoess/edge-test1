@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklot_com=self.webpackChunklot_com||[]).push([[89416],{89416:(d,e,n)=>{n.r(e),n.d(e,{default:()=>u});const o=void 0,u=[[["pono\u0107","podne","ujutro","poslijepodne","nave\u010der","po no\u0107i"],o,o],o,["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"]]]}}]);

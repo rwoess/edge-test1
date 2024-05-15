@@ -28,13 +28,8 @@
   --body-margin-width-tablet-large: 41px;
   --body-margin-width-desktop: 41px;
   --body-margin-width-desktop-large: 24px;
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 100.06%;
-  ascent-override: 95%;
-  src: local('Arial');
+  --body-font-family: LotGeomanist, LotLato, Helvetica, Arial, sans-serif;
+  --primary-blue: #252668;
 }
 
 @media (width >= 900px) {
@@ -49,9 +44,10 @@
 }
 
 body {
-  margin: 0;
+  font: 400 16px/28px LotGeomanist,LotLato,Helvetica,Arial,sans-serif;
   line-height: 1.6;
   display: none;
+  margin-top: 100px;
 }
 
 body.appear {
@@ -59,7 +55,7 @@ body.appear {
 }
 
 /* sections */
-main .section {
+main .section, lot-web-booker  {
   display: block;
   margin: 0 auto;
   width: calc(var(--container-max-width-xs));
@@ -67,49 +63,49 @@ main .section {
 }
 
 @media (width > 1024px) {
-  main .section {
+  main .section, lot-web-booker  {
     width:calc(var(--container-max-width-lg) + var(--grid-gutter-width-desktop))
   }
 }
 
 @media (width > 1366px) {
-  main .section {
+  main .section, lot-web-booker  {
     width:calc(var(--container-max-width-xl) + var(--grid-gutter-width-desktop))
   }
 }
 
 @media (width > 1920px) {
-  main .section {
+  main .section, lot-web-booker  {
     width:calc(var(--container-max-width-xxl) + var(--grid-gutter-width-desktop-large))
   }
 }
 
 @media (width > 464px) {
-  main .section {
+  main .section, lot-web-booker  {
     padding:0 var(--body-margin-width-mobile-large)
   }
 }
 
 @media (width > 768px) {
-  main .section {
+  main .section, lot-web-booker  {
     padding:0 var(--body-margin-width-tablet)
   }
 }
 
 @media (width > 834px) {
-  main .section {
+  main .section, lot-web-booker  {
     padding:0 var(--body-margin-width-tablet-large)
   }
 }
 
 @media (width > 1024px) {
-  main .section {
+  main .section, lot-web-booker  {
     padding:0
   }
 }
 
 /* component styling */
-main .section > div{
+main .section > div,  lot-web-booker  > div{
   display: block;
   margin-bottom: 40px;
   margin-left: calc(var(--grid-gutter-width) / 2);
@@ -117,7 +113,13 @@ main .section > div{
 }
 
 /* section metadata */
-main .section.light,
-main .section.highlight {
+main .section .light,
+main .section .highlight {
   background-color: grey;
+}
+
+
+/* text */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-blue);
 }

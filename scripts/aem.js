@@ -699,7 +699,8 @@ function decorateBlocks(main) {
  * @returns {Promise}
  */
 async function loadHeader(header) {
-  const headerBlock = buildBlock('header', '');
+  const headerAngularWrapper = document.createElement('lot-web-booker');
+  const headerBlock = buildBlock('header', headerAngularWrapper);
   header.append(headerBlock);
   decorateBlock(headerBlock);
   return loadBlock(headerBlock);

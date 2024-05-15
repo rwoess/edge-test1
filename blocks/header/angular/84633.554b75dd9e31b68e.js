@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklot_com=self.webpackChunklot_com||[]).push([[84633],{84633:(c,e,n)=>{n.r(e),n.d(e,{default:()=>t});const u=void 0,t=[[["yarim tun","tush payti","ertalab","kunduzi","kechqurun","kechasi"],u,u],u,["00:00","12:00",["06:00","11:00"],["11:00","18:00"],["18:00","22:00"],["22:00","06:00"]]]}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklot_com=self.webpackChunklot_com||[]).push([[83100],{83100:(u,e,n)=>{n.r(e),n.d(e,{default:()=>s});const a=void 0,s=[[["tengah malam","tengah hari","pagi","siang","sore","malam"],a,a],a,["00:00","12:00",["00:00","10:00"],["10:00","15:00"],["15:00","18:00"],["18:00","24:00"]]]}}]);

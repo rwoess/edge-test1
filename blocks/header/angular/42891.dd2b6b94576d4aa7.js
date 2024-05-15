@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklot_com=self.webpackChunklot_com||[]).push([[42891],{42891:(n,k,s)=>{s.r(k),s.d(k,{default:()=>e});const u=void 0,e=[[["kuty-si","kur\xe3-kuju","kus\xe3g ki","r\xe3k\xe3nh k\u1ef9","kuty k\u1ef9","kur\xe3 ge"],u,u],u,["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]}}]);

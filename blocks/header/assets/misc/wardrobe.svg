@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_50280" data-name="Group 50280" transform="translate(-98 -580)">
+    <rect id="Rectangle_3410" data-name="Rectangle 3410" width="30" height="30" rx="6" transform="translate(98 580)" fill="#d1d1d1"/>
+    <g id="checkroom_black_24dp" transform="translate(103.713 585.715)">
+      <rect id="Rectangle_3437" data-name="Rectangle 3437" width="18" height="18" transform="translate(0.286 0.286)" fill="none"/>
+      <path id="Path_6574" data-name="Path 6574" d="M17.166,14.987,10.511,10v-.7A2.706,2.706,0,1,0,7.029,6.708H8.577A1.161,1.161,0,1,1,9.714,7.868a.755.755,0,0,0-.751.766V10L2.309,14.987a.774.774,0,0,0,.464,1.393H16.7A.774.774,0,0,0,17.166,14.987ZM5.095,14.833,9.738,11.35l4.643,3.482Z" transform="translate(-0.452 -0.904)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
