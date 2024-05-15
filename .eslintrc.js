@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['./blocks/header/angular/*'],
+  ignorePatterns: ['angular/*'],
   root: true,
   extends: 'airbnb-base',
   env: {
@@ -12,6 +12,7 @@ module.exports = {
     requireConfigFile: false,
   },
   rules: {
+    'value-keyword-case': 0,
     // allow reassigning param
     'no-param-reassign': [2, { props: false }],
     'linebreak-style': ['error', 'unix'],

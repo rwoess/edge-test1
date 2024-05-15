@@ -93,19 +93,19 @@ main .section, lot-web-booker  {
 }
 
 @media (width > 834px) {
-  main .section, lot-web-booker  {
+  lot-web-booker, main .section  {
     padding:0 var(--body-margin-width-tablet-large)
   }
 }
 
 @media (width > 1024px) {
-  main .section, lot-web-booker  {
+  lot-web-booker, main .section {
     padding:0
   }
 }
 
 /* component styling */
-main .section > div,  lot-web-booker  > div{
+lot-web-booker  > div, main .section > div{
   display: block;
   margin-bottom: 40px;
   margin-left: calc(var(--grid-gutter-width) / 2);
