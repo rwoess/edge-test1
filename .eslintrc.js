@@ -1,4 +1,5 @@
 module.exports = {
+  ignores: ['./blocks/header/angular/*'],
   root: true,
   extends: 'airbnb-base',
   env: {
