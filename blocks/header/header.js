@@ -13,4 +13,4 @@ createApiScript();
 loadCSS('styles.bc5cd666eb10b3a1.css');
 loadScript('runtime.77cb13a6fe93a92e.js', { type: 'module' });
 loadScript('polyfills.c0019c5a515f9c73.js', { type: 'module' });
-loadScript('main.5c938eaf21554da9.js', { type: 'module' });
+loadScript('main.f73e543d797fa8e6.js', { type: 'module' });
