@@ -105,6 +105,10 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
+  const baseEl = document.createElement('base');
+  baseEl.href = '/blocks/header/angular/';
+  document.head.append(baseEl);
+
   loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
 
