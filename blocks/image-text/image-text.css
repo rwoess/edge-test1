@@ -1,0 +1,7 @@
+.image-text-wrapper {
+    display: flex;
+
+    > div {
+        flex-basis: 50%;
+    }
+}
