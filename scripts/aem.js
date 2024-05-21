@@ -287,6 +287,7 @@ async function loadScript(src, attrs) {
           script.setAttribute(attr, attrs[attr]);
         }
       }
+      script.defer = true;
       script.onload = resolve;
       script.onerror = reject;
       document.head.append(script);
